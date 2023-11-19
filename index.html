@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        html, head, body, header, main, footer, div, ul{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: #0F1818;
+        }
+        main{
+            min-height: 1000px;
+            padding-top: 5px;
+            background-color: #0F1818;
+        }
+        footer{
+            background-color: #4E5656;
+        }
+        .ul_header {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+        }
+        .logo{
+            height: 50px;
+        }
+        .background_img{
+            width: 100%;
+        }
+        footer>div>img{
+            height: 150px;
+        }
+        header>ul>li{
+            height: 30px;
+            width: 100px;
+            border: 2px solid #4E5656;
+            text-align: center;
+            line-height: 30px;
+            vertical-align: middle;
+        }
+        button{
+            height: 30px;
+            width: 100px;
+            background-color: #00474C;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/logo_full.png" alt="Logo">
+        <ul class="ul_header">
+            <li><a href="">
+                    <span>За нас</span>
+                </a></li>
+            <li><a href="./pages/schedule.html">
+                    <span>График</span>
+                </a></li>
+            <li><a href="./pages/services.html">
+                    <span>Услуги</span>
+                </a></li>
+            <li><a href="./pages/prices.html">
+                    <span>Цени</span>
+                </a></li>
+            <li><a href="./pages/contacts.html">
+                    <span>Контакти</span>
+                </a></li>
+        </ul>
+    </header>
+    <main>
+        <img class="background_img" src="./images/background_home_page.png" alt="background_image">
+        <button><a href="">Запази час</a></button>
+        <div>
+
+
+        </div>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>тел. 0898 222 666 - Ели</li>
+                <li>aerial_harmony@gmail.com</li>
+                <li>гр. София, бул. България № 10</li>
+                <li>© Aerial art 2023</li>
+            </ul>
+        </div>
+        <div class="map_footer">
+            <img class="map_footer" src="./images/map_footer.png" alt="map_footer">
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
