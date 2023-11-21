@@ -6,49 +6,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <style>
-        html, head, body, header, main, footer, div, ul{
+        html,
+        head,
+        body,
+        header,
+        main,
+        footer,
+        div,
+        ul {
             margin: 0;
             padding: 0;
         }
-        header{
-            background-color: #0F1818;
+
+        header {
+            display: flex;
+            background-color: #00474C;
         }
-        main{
-            min-height: 1000px;
+
+        main {
+            min-height: 1500px;
             padding-top: 5px;
+            padding-bottom: 10px;
             background-color: #0F1818;
         }
-        footer{
-            background-color: #4E5656;
+
+        footer {
+            height: 150px;
+            display: flex;
+            background-color: #00474C;
+            padding: 5px;
         }
+
+        h1 {
+            margin: 5px;
+            line-height: 17vw;
+            letter-spacing: 0.5vw;
+            font-size: 4vw;
+            text-align: center;
+            font-weight: 100;
+            font-style: italic;
+            font-family: cursive;
+            color: #FFFFFF;
+        }
+
+        .background_image {
+            height: 60vw;
+            background-image: linear-gradient(#000000, #000000, #7a7a7a, #bbbbbb, #7a7a7a, #000000, #000000), url(./images/background_home_page.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.8;
+            background-blend-mode: soft-light;
+        }
+
         .ul_header {
+            box-sizing: border-box;
+            height: 70px;
+            display: flex;
+            position: absolute;
+            right: 0px;
             list-style-type: none;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: row;
         }
-        .logo{
-            height: 50px;
+
+        .logo {
+            box-sizing: border-box;
+            height: 70px;
         }
-        .background_img{
-            width: 100%;
+
+        .footer_contacts {
+            color: #FFFFFF;
         }
-        footer>div>img{
+
+        footer img {
+            position: absolute;
             height: 150px;
+            right: 5px;
         }
-        header>ul>li{
-            height: 30px;
+
+        header li {
             width: 100px;
-            border: 2px solid #4E5656;
             text-align: center;
-            line-height: 30px;
+            line-height: 70px;
             vertical-align: middle;
         }
-        button{
-            height: 30px;
-            width: 100px;
+
+        header a {
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        button {
+            box-sizing: border-box;
+            height: 4.5vw;
+            width: 18vw;
+            padding: 0;
+            padding-top: 2px;
             background-color: #00474C;
+            position: relative;
+            top: 36vw;
+            left: 40vw;
+            border-radius: 1vw;
+        }
+
+        button>a {
+            font-size: 2.5vw;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .news1 {
+            min-height: 200px;
+            margin: 10px 10px 0px 10px;
+            background: linear-gradient(to bottom right, #E1E1E1, #959595, #505050);
+            padding: 5px;
+        }
+
+        .news1_background {
+            display: flex;
+            min-height: 190px;
+            background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF, #FFFFFF, #C9E3E4, #93C4C7);
+            padding: 5px;
+        }
+
+        h2 {
+            margin: 0;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        p {
+            margin: 5px;
+            text-align: justify;
+            color: #00474C;
+            font-size: 18px;
+        }
+
+        .news_image {
+            display: flex;
+            position: relative;
+            width: 30%;
+        }
+
+        .news_image img {
+            height: 25vw;
+        }
+
+        .news_description {
+            position: relative;
+            width: 70%;
         }
     </style>
 
@@ -56,7 +169,7 @@
 
 <body>
     <header>
-        <img class="logo" src="./images/logo_full.png" alt="Logo">
+        <img class="logo" src="./images/Aerial_Harmony_logo_big.png" alt="Logo">
         <ul class="ul_header">
             <li><a href="">
                     <span>За нас</span>
@@ -76,26 +189,119 @@
         </ul>
     </header>
     <main>
-        <img class="background_img" src="./images/background_home_page.png" alt="background_image">
-        <button><a href="">Запази час</a></button>
-        <div>
-
-
+        <div class="background_image">
+            <h1>Въздушна акробатика</h1>
+            <button><a href="">Запази час</a></button>
         </div>
+
+        <div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news1_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по въздушен обръч от 13.10.2023</h2>
+                        <p>Заповядайте да се потопите в магията на въздушната акробатика. Ще развиете своята сила,
+                            гъвкавост
+                            и координация докато се забавлявате! Не забравяйте да вземете със себе си добро настроение и
+                            удобни дрехи за спорт, няма да ви навреди да си носите и едни ръкавици. Тренираме боси или
+                            по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news2_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по въздушен воал от 10.09.2023</h2>
+                        <p>Заповядайте да се потопите в магията на въздушната акробатика. Ще развиете своята сила,
+                            гъвкавост
+                            и координация докато се забавлявате! Не забравяйте да вземете със себе си добро настроение и
+                            удобни дрехи за спорт, препоръчително с памучен клин, за да не се пързаляте по воала.
+                            Тренираме боси или по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news3_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по стречинг от 8.06.2023</h2>
+                        <p>Заповядайте да се запознаете с изкуството на разтягането. Ще развиете своята мобилност,
+                            гъвкавост
+                            и координация в спокойна и приятна обстановка! Не забравяйте да вземете със себе си добро
+                            настроение и
+                            удобни дрехи за спорт.
+                            Тренираме боси или по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news4_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по въздушен обръч от 11.05.2023</h2>
+                        <p>Заповядайте да се потопите в магията на въздушната акробатика. Ще развиете своята сила,
+                            гъвкавост
+                            и координация докато се забавлявате! Не забравяйте да вземете със себе си добро настроение и
+                            удобни дрехи за спорт, няма да ви навреди да си носите и едни ръкавици. Тренираме боси или
+                            по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news5_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по въздушен воал от 17.04.2023</h2>
+                        <p>Заповядайте да се потопите в магията на въздушната акробатика. Ще развиете своята сила,
+                            гъвкавост
+                            и координация докато се забавлявате! Не забравяйте да вземете със себе си добро настроение и
+                            удобни дрехи за спорт, препоръчително с памучен клин, за да не се пързаляте по воала.
+                            Тренираме боси или по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news1">
+                <div class="news1_background">
+                    <div class="news_image">
+                        <img src="./images/news6_picture.jpg" alt="Aerial hoop image">
+                    </div>
+                    <div class="news_description">
+                        <h2>Нова група по стречинг от 28.03.2023</h2>
+                        <p>Заповядайте да се запознаете с изкуството на разтягането. Ще развиете своята мобилност,
+                            гъвкавост
+                            и координация в спокойна и приятна обстановка! Не забравяйте да вземете със себе си добро
+                            настроение и
+                            удобни дрехи за спорт.
+                            Тренираме боси или по чорапи!<br> Очакваме Ви!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </main>
     <footer>
-        <div>
-            <ul>
-                <li>тел. 0898 222 666 - Ели</li>
-                <li>aerial_harmony@gmail.com</li>
-                <li>гр. София, бул. България № 10</li>
-                <li>© Aerial art 2023</li>
-            </ul>
+        <div class="footer_contacts">
+            тел. 0898 222 666 - Ели <br>
+            aerial_harmony@gmail.com <br>
+            гр. София, бул. България № 10 <br>
+            © Aerial art 2023 <br>
         </div>
         <div class="map_footer">
             <img class="map_footer" src="./images/map_footer.png" alt="map_footer">
         </div>
-        
+
     </footer>
 
 </body>
