@@ -1,0 +1,61 @@
+main {
+    min-height: 500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #0F1818;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    color: #93C4C7;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    text-align: justify;
+    color: #00474C;
+    font-size: 18px;
+    text-indent: 40px;
+}
+
+/* div block for the effect of gradient border from white to grey */
+.news {
+    min-height: 200px;
+    margin: 10px 10px 0px 10px;
+    background: linear-gradient(to bottom right, #E1E1E1, #959595, #505050);
+    padding: 5px;
+}
+
+/* the actual div for the elements of each of the news which is also gradient filled*/
+.news_background {
+    display: flex;
+    min-height: 190px;
+    background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF, #FFFFFF, #C9E3E4, #93C4C7);
+    padding: 5px;
+}
+
+/* div for the image ot each of the news */
+.news_image {
+    display: flex;
+    position: relative;
+    width: 30%;
+}
+
+.news_image img {
+    height: 25vw;
+}
+
+/* make the text in the left 70% of the news */
+.news_description {
+    position: relative;
+    width: 70%;
+}

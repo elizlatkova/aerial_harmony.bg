@@ -1,0 +1,98 @@
+main {
+    min-height: 1500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #0F1818;
+}
+
+/* Background image */
+.background_image {
+    height: 60vw;
+    background-image: linear-gradient(#000000, #000000, #7a7a7a, #bbbbbb, #7a7a7a, #000000, #000000), url(../images/background_home_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-blend-mode: soft-light;
+}
+
+h1 {
+    margin: 5px;
+    line-height: 17vw;
+    letter-spacing: 0.5vw;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+    font-family: cursive;
+    color: #FFFFFF;
+}
+
+button {
+    box-sizing: border-box;
+    height: 4.5vw;
+    width: 18vw;
+    padding: 0;
+    padding-top: 2px;
+    background-color: #00474C;
+    position: relative;
+    top: 36vw;
+    left: 40vw;
+    border-radius: 0.7vw;
+}
+
+button a {
+    font-size: 2.5vw;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    text-align: justify;
+    color: #00474C;
+    font-size: 18px;
+    text-indent: 40px;
+}
+
+/* div block for the effect of gradient border from white to grey */
+.news {
+    min-height: 200px;
+    margin: 10px 10px 0px 10px;
+    background: linear-gradient(to bottom right, #E1E1E1, #959595, #505050);
+    padding: 5px;
+}
+
+/* the actual div for the elements of each of the news which is also gradient filled*/
+.news_background {
+    display: flex;
+    min-height: 190px;
+    background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF, #FFFFFF, #C9E3E4, #93C4C7);
+    padding: 5px;
+}
+
+/* div for the image ot each of the news */
+.news_image {
+    display: flex;
+    position: relative;
+    width: 30%;
+}
+
+.news_image img {
+    height: 25vw;
+}
+
+/* make the text in the left 70% of the news */
+.news_description {
+    position: relative;
+    width: 70%;
+}

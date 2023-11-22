@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    background-color: #00474C;
+}
+
+.logo {
+    box-sizing: border-box;
+    height: 70px;
+}
+
+.ul_header {
+    box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    width: 100px;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+header li:hover {
+    background-color: #93C4C7;
+}
+
+header a, header .drop_about_us{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dropdown_headerMenu {
+    display: none;
+    position: absolute;
+    background-color: #00474C;
+    min-width: 150px;
+    z-index: 1;
+}
+
+.dropdown_headerMenu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_headerMenu a:hover {
+    background-color: #93C4C7;
+}
+
+.drop_about_us:hover .dropdown_headerMenu {
+    display: block;
+}

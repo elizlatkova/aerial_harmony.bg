@@ -1,0 +1,16 @@
+footer {
+    height: 150px;
+    display: flex;
+    background-color: #00474C;
+    padding: 5px;
+}
+
+.footer_contacts {
+    color: #FFFFFF;
+}
+
+footer img {
+    position: absolute;
+    height: 150px;
+    right: 5px;
+}

@@ -4,176 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <style>
-        html,
-        head,
-        body,
-        header,
-        main,
-        footer,
-        div,
-        ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            display: flex;
-            background-color: #00474C;
-        }
-
-        main {
-            min-height: 1500px;
-            padding-top: 5px;
-            padding-bottom: 10px;
-            background-color: #0F1818;
-        }
-
-        footer {
-            height: 150px;
-            display: flex;
-            background-color: #00474C;
-            padding: 5px;
-        }
-
-        h1 {
-            margin: 5px;
-            line-height: 17vw;
-            letter-spacing: 0.5vw;
-            font-size: 4vw;
-            text-align: center;
-            font-weight: 100;
-            font-style: italic;
-            font-family: cursive;
-            color: #FFFFFF;
-        }
-
-        .background_image {
-            height: 60vw;
-            background-image: linear-gradient(#000000, #000000, #7a7a7a, #bbbbbb, #7a7a7a, #000000, #000000), url(./images/background_home_page.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.8;
-            background-blend-mode: soft-light;
-        }
-
-        .ul_header {
-            box-sizing: border-box;
-            height: 70px;
-            display: flex;
-            position: absolute;
-            right: 0px;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        .logo {
-            box-sizing: border-box;
-            height: 70px;
-        }
-
-        .footer_contacts {
-            color: #FFFFFF;
-        }
-
-        footer img {
-            position: absolute;
-            height: 150px;
-            right: 5px;
-        }
-
-        header li {
-            width: 100px;
-            text-align: center;
-            line-height: 70px;
-            vertical-align: middle;
-        }
-
-        header a {
-            display: inline-block;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        button {
-            box-sizing: border-box;
-            height: 4.5vw;
-            width: 18vw;
-            padding: 0;
-            padding-top: 2px;
-            background-color: #00474C;
-            position: relative;
-            top: 36vw;
-            left: 40vw;
-            border-radius: 1vw;
-        }
-
-        button>a {
-            font-size: 2.5vw;
-            display: inline-block;
-            height: 100%;
-            width: 100%;
-            color: #FFFFFF;
-            text-decoration: none;
-        }
-
-        .news1 {
-            min-height: 200px;
-            margin: 10px 10px 0px 10px;
-            background: linear-gradient(to bottom right, #E1E1E1, #959595, #505050);
-            padding: 5px;
-        }
-
-        .news1_background {
-            display: flex;
-            min-height: 190px;
-            background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF, #FFFFFF, #C9E3E4, #93C4C7);
-            padding: 5px;
-        }
-
-        h2 {
-            margin: 0;
-            font-size: 20px;
-            text-align: center;
-        }
-
-        p {
-            margin: 5px;
-            text-align: justify;
-            color: #00474C;
-            font-size: 18px;
-        }
-
-        .news_image {
-            display: flex;
-            position: relative;
-            width: 30%;
-        }
-
-        .news_image img {
-            height: 25vw;
-        }
-
-        .news_description {
-            position: relative;
-            width: 70%;
-        }
-    </style>
-
+    <title>Aerial Harmony</title>
+    <link rel="icon" href="./images/Aerial_Harmony_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/homepage.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
     <header>
         <img class="logo" src="./images/Aerial_Harmony_logo_big.png" alt="Logo">
         <ul class="ul_header">
-            <li><a href="">
-                    <span>За нас</span>
-                </a></li>
+            <li>
+                <div class="drop_about_us">За нас
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown_headerMenu">
+                        <a href="./pages/instructors.html">Инструктори</a>
+                        <a href="./pages/galery.html">Галерия</a>
+                        <a href="./pages/video.html">Видеа</a>
+                        <a href="./pages/news.html">Новини</a>
+                    </div>
+                </div>
+            </li>
             <li><a href="./pages/schedule.html">
                     <span>График</span>
                 </a></li>
@@ -195,8 +49,8 @@
         </div>
 
         <div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news1_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -210,8 +64,8 @@
                     </div>
                 </div>
             </div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news2_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -225,8 +79,8 @@
                     </div>
                 </div>
             </div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news3_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -241,8 +95,8 @@
                     </div>
                 </div>
             </div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news4_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -256,8 +110,8 @@
                     </div>
                 </div>
             </div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news5_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -271,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="news1">
-                <div class="news1_background">
+            <div class="news">
+                <div class="news_background">
                     <div class="news_image">
                         <img src="./images/news6_picture.jpg" alt="Aerial hoop image">
                     </div>
@@ -288,7 +142,6 @@
                 </div>
             </div>
         </div>
-
 
     </main>
     <footer>
