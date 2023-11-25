@@ -1,5 +1,5 @@
 main {
-    min-height: 1500px;
+    min-height: 1000px;
     padding-top: 5px;
     padding-bottom: 10px;
     background-color: #0F1818;
@@ -34,10 +34,19 @@ button {
     padding: 0;
     padding-top: 2px;
     background-color: #00474C;
+    
+    border-radius: 0.7vw;
+}
+.save_class{
     position: relative;
     top: 36vw;
     left: 40vw;
-    border-radius: 0.7vw;
+
+}
+.more_news{
+    margin-top: 10px;
+    position: relative;
+    left: 40vw;
 }
 
 button a {

@@ -1,0 +1,33 @@
+main {
+    min-height: 500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #0F1818;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    color: #93C4C7;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    text-align: justify;
+    color: #00474C;
+    font-size: 18px;
+    text-indent: 40px;
+}
+.item_services{
+    min-height: 150px;
+    margin: 20px 0px;
+    background: linear-gradient(to bottom right,#ffffff, #ffffff, #93C4C7);
+}

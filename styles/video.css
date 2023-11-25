@@ -1,0 +1,39 @@
+main {
+    min-height: 500px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #0F1818;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    color: #93C4C7;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #00474C;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px 0 10px 0;
+
+}
+
+.video_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 5px 30px 5px;
+    padding: 5px;
+    background-color: #0F1818;
+    background-color: #00474C;
+}
+
+video {
+    max-height: 40vw;
+    margin: 5px;
+}
