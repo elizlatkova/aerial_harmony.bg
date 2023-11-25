@@ -3,23 +3,24 @@ body {
 }
 
 main {
-    min-height: 500px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    min-height: 750px;
+    padding-top: 5px 5px 10px 5px;
     background-color: #0F1818;
 }
 
-h1{
+h2{
     font-size: 30px;
     text-align: center;
-    margin: 15px;
+    padding: 15px;
     color: #93C4C7;
 }
 
 table {
-    width: 90%;
+    width: 95%;
     border-collapse: collapse;
-    margin: 5%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 tr{
@@ -46,22 +47,40 @@ thead td {
     background-color: #00474C;
 }
 
-.silks{
+tbody>tr:nth-child(1){
     background-color: #ebe8dc;
 }
 
-.hoop{
+tbody>tr:nth-child(2){
     background-color: #5ebfffd0;
 }
 
-.yoga{
-    background-color: #95ff95f6;
-}
-
-.stretching{
+tbody>tr:nth-child(3){
     background-color: #c0e6fff5;
 }
 
-.mobility{
+tbody>tr:nth-child(4){
     background-color: #fdff88;
+}
+
+tbody>tr:nth-child(5){
+    background-color: #95ff95f6;
+}
+
+tbody>tr:nth-child(6){
+    background-color: #ffa0c5;
+}
+
+main ul{
+    color: #000000;
+    background-color: #93C4C7;
+    margin: 5px;
+    margin-bottom: 0;
+    padding: 25px;
+    list-style-type: disc;
+}
+
+main li{
+    font-size: 20px;
+    line-height: 24px;
 }

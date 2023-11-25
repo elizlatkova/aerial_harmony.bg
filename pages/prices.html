@@ -5,44 +5,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Цени</title>
+    <link rel="icon" href="../images/Aerial_Harmony_icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/prices.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 
 <body>
     <header>
         <a href="../index.html">
-            <img class="logo" src="../images/logo_full.png" alt="Logo">
+            <img class="logo" src="../images/Aerial_Harmony_logo_big.png" alt="Logo">
         </a>
         <ul class="ul_header">
-            <li><a href="">
-                    <span>За нас</span>
-                </a></li>
-            <li><a href="../pages/schedule.html">
+            <li>
+                <div class="drop_about_us">За нас
+                    <i class="fa fa-caret-down"></i>
+                    <div class="dropdown_headerMenu">
+                        <a href="./instructors.html">Инструктори</a>
+                        <a href="./galery.html">Галерия</a>
+                        <a href="./video.html">Видеа</a>
+                        <a href="./news.html">Новини</a>
+                    </div>
+                </div> 
+            </li>
+            <li><a href="./schedule.html">
                     <span>График</span>
                 </a></li>
-            <li><a href="../pages/services.html">
+            <li><a href="./services.html">
                     <span>Услуги</span>
                 </a></li>
-            <li><a href="../pages/prices.html">
+            <li><a href="./prices.html">
                     <span>Цени</span>
                 </a></li>
-            <li><a href="../pages/contacts.html">
+            <li><a href="./contacts.html">
                     <span>Контакти</span>
                 </a></li>
         </ul>
     </header>
     <main>
-        <h1>Цени</h1>
+        <h2>Цени за тренировките ни</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td id="first_sell"></td>
+                    <td>Еднократно</td>
+                    <td>Карта за 4 тренировки</td>
+                    <td>Карта за 8 тренировки</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aerial silks</td>
+                    <td>20 лв</td>
+                    <td>75 лв</td>
+                    <td>140 лв</td>
+                </tr>
+                <tr>
+                    <td>Aerial hoop</td>
+                    <td>20 лв</td>
+                    <td>75 лв</td>
+                    <td>140 лв</td>
+                </tr>
+                <tr>
+                    <td>Стречинг</td>
+                    <td>15 лв</td>
+                    <td>55 лв</td>
+                    <td>100 лв</td>
+                </tr>
+                <tr>
+                    <td>Мобилити</td>
+                    <td>15 лв</td>
+                    <td>55 лв</td>
+                    <td>100 лв</td>
+                </tr>
+                <tr>
+                    <td>Йога</td>
+                    <td>15 лв</td>
+                    <td>55 лв</td>
+                    <td>100 лв</td>
+                </tr>
+                <tr>
+                    <td>Индивидуален час</td>
+                    <td>50 лв</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <h2>Предлагаме още</h2>
+        <ul>
+            <li>Наемне на зала: 50 лв./час</li>
+            <li>Фотосесия в залата ни с професионален фотограф: 200 лв.</li>
+            <li>Изготвяне на хореография за Вас: 400 лв. (включва 5 тренировки)</li>
+            <li>Изготвяне на шоу програма за събитие: свържете се с нас за повече подробности</li>
+        </ul>
+
+
 
     </main>
 
     <footer>
-        <div>
-            <ul>
-                <li>тел. 0898 222 666 - Ели</li>
-                <li>aerial_harmony@gmail.com</li>
-                <li>гр. София, бул. България № 10</li>
-                <li>© Aerial art 2023</li>
-            </ul>
+        <div class="footer_contacts">
+            тел. 0898 222 666 - Ели <br>
+            aerial_harmony@gmail.com <br>
+            гр. София, бул. България № 10 <br>
+            © Aerial art 2023 <br>
         </div>
         <div class="map_footer">
             <img class="map_footer" src="../images/map_footer.png" alt="map_footer">
