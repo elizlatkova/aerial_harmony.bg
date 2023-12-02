@@ -1,0 +1,27 @@
+.fa-facebook-square,
+.fa-instagram,
+.fa-youtube-play {
+    position: fixed;
+    left: 0.5em;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    color: #00474C;
+    font-size: 30px;
+    z-index: 3;
+}
+
+.fa-facebook-square {
+    bottom: 4.1em;
+}
+
+.fa-instagram {
+    bottom: 2.3em;
+}
+
+.fa-youtube-play {
+    bottom: 0.5em;
+}

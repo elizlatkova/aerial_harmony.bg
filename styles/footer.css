@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-    height: 150px;
+    height: 170px;
     display: flex;
     background-color: #00474C;
     padding: 5px;
@@ -12,10 +12,13 @@ footer {
 .footer_contacts {
     color: #FFFFFF;
     line-height: 20px;
+    padding-top: 1em;
+    padding-left: 70px;
+    vertical-align: middle;
 }
 
 footer img {
     position: absolute;
-    height: 150px;
+    height: 170px;
     right: 5px;
 }

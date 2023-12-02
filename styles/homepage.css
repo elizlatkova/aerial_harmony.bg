@@ -9,18 +9,25 @@ main {
     background-color: #0F1818;
 }
 
+.padding_news_in_main{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 /* Background image */
 .background_image {
-    height: 60vw;
+    position: relative;
+    height: 110vh;
     background-image: linear-gradient(#000000, #000000, #7a7a7a, #bbbbbb, #7a7a7a, #000000, #000000), url(../images/background_home_page.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.8;
     background-blend-mode: soft-light;
+    z-index: 0;
 }
 
 h1 {
-    margin: 5px;
+    margin: 10px;
     line-height: 17vw;
     letter-spacing: 0.5vw;
     font-size: 4vw;
@@ -33,31 +40,35 @@ h1 {
 
 button {
     box-sizing: border-box;
-    height: 4.5vw;
-    width: 18vw;
-    padding: 0;
-    padding-top: 2px;
-    background-color: #00474C;
-    
-    border-radius: 0.7vw;
-}
-.save_class{
-    position: relative;
-    top: 36vw;
-    left: 40vw;
+    position: fixed;
 
+    height: 3em;
+    width: 11em;
+    background-color: #00474C;
+    border-radius: 0.7vw;
+    z-index: 3;
+    margin: 0px auto;
 }
-.more_news{
+
+.save_class {
+    bottom: 2em;
+    left: 43vw;
+}
+
+.more_news {
     margin-top: 10px;
     position: relative;
-    left: 40vw;
+    left: 43vw;
 }
 
 button a {
-    font-size: 2.5vw;
+    font-size: 1.4em;
+    vertical-align: bottom;
     display: inline-block;
     height: 100%;
     width: 100%;
+    line-height: 1.6em;
+    margin: auto;
     color: #FFFFFF;
     text-decoration: none;
 }

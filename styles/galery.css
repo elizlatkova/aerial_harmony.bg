@@ -1,11 +1,13 @@
 div,
-img {
+img,
+main,
+body {
     box-sizing: border-box;
 }
 
 main {
     min-height: 900px;
-    padding: 5px 5px 30px 5px;
+    padding: 5px 70px 30px 70px;
     background-color: #0F1818;
 }
 
@@ -19,8 +21,8 @@ h1 {
 .parent_container {
     display: grid;
     grid-template-rows: 50% 50%;
-    width: 90vw;
-    height: 90vw;
+    width: 80vw;
+    height: 80vw;
     position: relative;
     margin: auto;
 }
@@ -28,29 +30,29 @@ h1 {
 .first_child_container {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 90vw;
-    height: 45vw;
+    width: 80vw;
+    height: 40vw;
 }
 
 .second_child_container {
     display: grid;
     grid-template-columns: 25% 50% 25%;
-    width: 90vw;
-    height: 45vw;
+    width: 80vw;
+    height: 40vw;
 }
 
 .first_left {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    width: 45vw;
-    height: 45vw;
+    width: 40vw;
+    height: 40vw;
 }
 
 .first_right,
 .second_middle {
-    width: 45vw;
-    height: 45vw;
+    width: 40vw;
+    height: 40vw;
     display: grid;
 }
 
@@ -58,23 +60,23 @@ h1 {
 .second_right {
     display: grid;
     grid-template-rows: 50% 50%;
-    width: 22.5vw;
-    height: 45vw;
+    width: 20vw;
+    height: 40vw;
 }
 
 .first_left img,
 .second_left img,
 .second_right img {
-    width: 22.5vw;
-    height: 22.5vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 .first_right img,
 .second_middle img {
-    width: 45vw;
-    height: 45vw;
+    width: 40vw;
+    height: 40vw;
 }
 
-.parent_container img{
+.parent_container img {
     border: 5px solid #0F1818;
 }

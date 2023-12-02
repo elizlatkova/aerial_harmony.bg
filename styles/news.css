@@ -4,8 +4,7 @@ body {
 
 main {
     min-height: 500px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding: 5px 70px 30px 70px;
     background-color: #0F1818;
 }
 
@@ -52,15 +51,14 @@ p {
 .news_image {
     display: flex;
     position: relative;
-    width: 30%;
+    width: 40%;
 }
 
 .news_image img {
     height: 25vw;
 }
 
-/* make the text in the left 70% of the news */
+
 .news_description {
-    position: relative;
-    width: 70%;
+    position: initial;
 }
