@@ -34,5 +34,6 @@ p {
 .item_services{
     min-height: 150px;
     margin: 20px 0px;
+    padding: 10px;
     background: linear-gradient(to bottom right,#ffffff, #ffffff, #93C4C7);
 }

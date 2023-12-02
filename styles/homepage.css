@@ -109,15 +109,13 @@ p {
 .news_image {
     display: flex;
     position: relative;
-    width: 30%;
+    width: 40%;
 }
 
 .news_image img {
     height: 25vw;
 }
 
-/* make the text in the left 70% of the news */
 .news_description {
     position: relative;
-    width: 70%;
 }
